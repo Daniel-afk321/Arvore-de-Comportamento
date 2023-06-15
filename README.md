@@ -36,8 +36,11 @@
 ## Funcionalidades ⚙️
 
 ✔️ Utilize as teclas "A,W,S,D" para movimentar o tank.
+
 ✔️ Utilize a tecla "ESPAÇO" para Atirar projetis.
-✔️ Clique no botão "Credits" para abrir uma imagem mostrando os créditos. 
+
+✔️ Clique no botão "Credits" para abrir uma imagem mostrando os créditos.
+
 ✔️ Clique no botão "Return Credit" para tirar a imagem que esta mostrando os créditos da tela.
 
 ## Distribuição
