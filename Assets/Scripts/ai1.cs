@@ -76,4 +76,16 @@ public class ai1 : MonoBehaviour
             Task.current.Succeed();
         }
     }
+    [Task]
+    public bool IsHealthLessThan(float health)
+    {
+        return this.health < health;
+    }
+    [Task]
+    public bool Explode()
+    {
+        Destroy(healthBar.gameObject);
+        Destroy(this.gameObject);
+        return true;
+    }
 }

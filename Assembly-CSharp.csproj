@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BCB93230-A967-D57E-73E5-1920054D7499}</ProjectGuid>
+    <ProjectGuid>{B8A144AB-E1E5-2C0D-AFA5-536C36E7E7DA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,33 +56,36 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Droid\DestroyMe.cs" />
-    <Compile Include="Assets\Scripts\AI.cs" />
-    <Compile Include="Assets\Scripts\Drive.cs" />
-    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\Patroller.cs" />
-    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\HUD.cs" />
     <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\ShooterGameController.cs" />
-    <Compile Include="Assets\Panda.BT.free\Samples\02_PlayTag\Assets\Player.cs" />
-    <Compile Include="Assets\Panda.BT.free\Samples\00_ChangeColor\Assets\MyCube.cs" />
-    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\Unit.cs" />
-    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\Bullet.cs" />
-    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\AIVision.cs" />
-    <Compile Include="Assets\Panda.BT.free\Samples\02_PlayTag\Assets\Dialogue.cs" />
-    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\UnitExplosion.cs" />
-    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\WaypointPath.cs" />
     <Compile Include="Assets\Panda.BT.free\Samples\02_PlayTag\Assets\Computer.cs" />
-    <Compile Include="Assets\Panda.BT.free\Samples\01_Move\Assets\Move.cs" />
-    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\FollowCamera.cs" />
-    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\BulletImpact.cs" />
-    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\TriggerType.cs" />
+    <Compile Include="Assets\Droid\DestroyMe.cs" />
+    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\Unit.cs" />
+    <Compile Include="Assets\Panda.BT.free\Samples\02_PlayTag\Assets\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\AI.cs" />
     <Compile Include="Assets\Scripts\ai1.cs" />
+    <Compile Include="Assets\Panda.BT.free\Samples\01_Move\Assets\Move.cs" />
+    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\WaypointPath.cs" />
+    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\Patroller.cs" />
+    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\FollowCamera.cs" />
+    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\AIVision.cs" />
+    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\TriggerType.cs" />
+    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Drive.cs" />
+    <Compile Include="Assets\Panda.BT.free\Samples\00_ChangeColor\Assets\MyCube.cs" />
+    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\UnitExplosion.cs" />
+    <Compile Include="Assets\Panda.BT.free\Samples\02_PlayTag\Assets\Player.cs" />
+    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\HUD.cs" />
+    <Compile Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\BulletImpact.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Panda.BT.free\Samples\02_PlayTag\Assets\TagDialogue.BT.txt" />
     <None Include="Assets\Panda.BT.free\Samples\02_PlayTag\Assets\PlayTag.commented.BT.txt" />
     <None Include="Assets\Panda.BT.free\Samples\01_Move\Assets\Move.BT.txt" />
     <None Include="Assets\Scripts\WANDER.txt" />
+    <None Include="Assets\Scripts\Attack.txt" />
     <None Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\Player.BT.txt" />
+    <None Include="Assets\Foliage Free\Readme.txt" />
+    <None Include="Assets\Scripts\BoatAI.txt" />
     <None Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\Sniper.BT.txt" />
     <None Include="Assets\Panda.BT.free\Samples\00_ChangeColor\Assets\ChangeColor.BT.txt" />
     <None Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\Hunter.BT.txt" />
@@ -696,11 +699,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PandaBehaviour.csproj">
-      <Project>{6834B388-64D4-663F-D50B-35AB5E2BAFD0}</Project>
+      <Project>{FC1469A3-32D7-4E7B-CBF3-EC87BA4C0A9F}</Project>
       <Name>PandaBehaviour</Name>
     </ProjectReference>
     <ProjectReference Include="PandaBehaviourEditor.csproj">
-      <Project>{DA17C15B-9F77-10E0-8AFF-0934308A6B6E}</Project>
+      <Project>{F0F93E87-76A5-32FB-8C53-D00A90D3B6CF}</Project>
       <Name>PandaBehaviourEditor</Name>
     </ProjectReference>
   </ItemGroup>

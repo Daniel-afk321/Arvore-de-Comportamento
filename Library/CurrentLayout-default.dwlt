@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Hierarchy
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 130
+  controlID: 104
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,7 +152,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 80
+  controlID: 16
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -253,7 +253,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 81
+  controlID: 17
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -383,14 +383,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\RobotGuardBTStarter
+  m_LastProjectPath: E:\RobotGuardBTStarter\Arvore-de-Comportamento
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 64560000
-    m_LastClickedID: 22116
-    m_ExpandedIDs: 00000000705300007253000074530000
+    m_SelectedIDs: 3c3f0000
+    m_LastClickedID: 16188
+    m_ExpandedIDs: 00000000243f0000263f0000283f0000a23f0000f0990000f2990000209a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -406,7 +406,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 2}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -418,7 +418,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000705300007253000074530000
+    m_ExpandedIDs: 00000000243f0000263f0000283f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -445,7 +445,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000b249000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -507,7 +507,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 630
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -543,7 +543,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: a4e3ffff
+      m_ExpandedIDs: c644feff7447feff6248feffc08dffff40a2ffff48a2ffff50a2ffff58a2ffff5ca2ffffd6a2ffff50b6ffff70fbffffc63d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -604,9 +604,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 71.602234, y: 34.95336, z: 12.949947}
+    m_Target: {x: 891.7196, y: 543.69653, z: -504.9074}
     speed: 2
-    m_Value: {x: 71.602234, y: 34.95336, z: 12.949947}
+    m_Value: {x: 891.7196, y: 543.69653, z: -504.9074}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -653,20 +653,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.2655535, y: 0.58702904, z: -0.21216236, w: -0.73475504}
+    m_Target: {x: 0.1431719, y: 0.02471325, z: 0.003448137, w: -0.9895276}
     speed: 2
-    m_Value: {x: -0.26555356, y: 0.58702916, z: -0.2121624, w: -0.7347552}
+    m_Value: {x: 0.14315146, y: 0.02470972, z: 0.0034476446, w: -0.98938626}
   m_Size:
-    m_Target: 14.221005
+    m_Target: 5.559989
     speed: 2
-    m_Value: 14.221005
+    m_Value: 5.559989
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.2
-    m_SpeedNormalized: 0.5899999
+    m_Speed: 0.30084997
+    m_SpeedNormalized: 0.14999999
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -754,18 +754,18 @@ MonoBehaviour:
       y: 21
       width: 783
       height: 315
-    m_Scale: {x: 0.29166666, y: 0.29166666}
-    m_Translation: {x: 391.5, y: 157.5}
+    m_Scale: {x: 0.37730783, y: 0.37730783}
+    m_Translation: {x: 391.5, y: 124.23564}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1342.2858
-      y: -540
-      width: 2684.5715
-      height: 1080
+      x: -1037.6143
+      y: -329.26865
+      width: 2075.2285
+      height: 834.86206
     m_MinimalGUI: 1
   m_defaultScale: 0.29166666
   m_LastWindowPixelSize: {x: 783, y: 336}
