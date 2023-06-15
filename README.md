@@ -31,7 +31,7 @@
 
 ## Descrição do projeto
 
-🔹Destrua o outro Tank para Vercer
+🔹 Destrua o outro Tank para Vercer
 
 ## Funcionalidades ⚙️
 
