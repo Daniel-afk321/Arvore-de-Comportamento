@@ -29,7 +29,7 @@ public class ai1 : MonoBehaviour
     float visibleRange = 80.0f;
     //Alcance do disparo
     float shotRange = 40.0f;
-
+    
     void Start()
     {
         //Esta obtendo o componente NavMeshAgent 
@@ -88,4 +88,13 @@ public class ai1 : MonoBehaviour
         Destroy(this.gameObject);
         return true;
     }
+    //esta tirando a vida
+    void OnCollisionEnter(Collision col)
+    {
+        if (col.gameObject.tag == "bullet")
+        {
+            health -= 10;
+        }
+    }
+   
 }

@@ -85,7 +85,6 @@
     <None Include="Assets\Scripts\Attack.txt" />
     <None Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\Player.BT.txt" />
     <None Include="Assets\Foliage Free\Readme.txt" />
-    <None Include="Assets\Scripts\BoatAI.txt" />
     <None Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\Sniper.BT.txt" />
     <None Include="Assets\Panda.BT.free\Samples\00_ChangeColor\Assets\ChangeColor.BT.txt" />
     <None Include="Assets\Panda.BT.free\Samples\03_Shooter\Assets\Hunter.BT.txt" />
