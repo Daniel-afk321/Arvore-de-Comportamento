@@ -7,7 +7,7 @@ using Panda;
 
 public class ai1 : MonoBehaviour
 {
-    //Referência ao transform do Player
+    //ReferÃªncia ao transform do Player
     public Transform player;
     //Ponto de spawn das balas
     public Transform bulletSpawn;
@@ -19,13 +19,13 @@ public class ai1 : MonoBehaviour
     NavMeshAgent agent;
     //Destino de movimento
     public Vector3 destination;
-    //Posição alvo
+    //PosiÃ§Ã£o alvo
     public Vector3 target;
     //Vida do Droid
     float health = 100.0f;
-    //Velocidade de rotação
+    //Velocidade de rotaÃ§Ã£o
     float rotSpeed = 5.0f;
-    //Alcance de visão
+    //Alcance de visÃ£o
     float visibleRange = 80.0f;
     //Alcance do disparo
     float shotRange = 40.0f;
@@ -35,44 +35,50 @@ public class ai1 : MonoBehaviour
         //Esta obtendo o componente NavMeshAgent 
         agent = this.GetComponent<NavMeshAgent>();
         agent.stoppingDistance = shotRange - 5; //for a little buffer
-        //Chama repetidamente o método UpdateHealth
+        //Chama repetidamente o mÃ©todo UpdateHealth
         InvokeRepeating("UpdateHealth", 5, 0.5f);
     }
     void Update()
     {
-        //Converte a posição do Droid para a posição na tela
+        //Converte a posiÃ§Ã£o do Droid para a posiÃ§Ã£o na tela
         Vector3 healthBarPos = Camera.main.WorldToScreenPoint(this.transform.position);
         //Atualiza o valor da barra de vida 
         healthBar.value = (int)health;
-        //posição da barra de vida em cima do Droid na tela
+        //posiÃ§Ã£o da barra de vida em cima do Droid na tela
         healthBar.transform.position = healthBarPos + new Vector3(0, 60, 0);
+          //destroi o inimigo
+        if (health == 0)
+        {
+            Destroy(healthBar.gameObject);
+            Destroy(this.gameObject);
+        }
     }
     void UpdateHealth()
     {
-        //Esta verificando se a vida atual está abaixo de 100, se estiver, ele almenta o valor da vida em 1
+        //Esta verificando se a vida atual estÃ¡ abaixo de 100, se estiver, ele almenta o valor da vida em 1
         if (health < 100)
             health++;
     }
     [Task]
     public void PickRandomDestination()
     {
-        //Gera uma posição de destino aleatória
+        //Gera uma posiÃ§Ã£o de destino aleatÃ³ria
         Vector3 dest = new Vector3(Random.Range(-100, 100), 0, Random.Range(-100, 100));
         //Define o destino do agente
         agent.SetDestination(dest);
-        //Indica que a tarefa foi concluída 
+        //Indica que a tarefa foi concluÃ­da 
         Task.current.Succeed();
     }
     [Task]
     public void MoveToDestination()
     {
         if (Task.isInspected)
-            //informações de depuração da tarefa
+            //informaÃ§Ãµes de depuraÃ§Ã£o da tarefa
             Task.current.debugInfo = string.Format("t={0:0.00}", Time.time);
         //Verifica se o agente chegou ao destino
         if (agent.remainingDistance <= agent.stoppingDistance && !agent.pathPending)
         {
-            //Indica que a tarefa foi concluída 
+            //Indica que a tarefa foi concluÃ­da 
             Task.current.Succeed();
         }
     }
